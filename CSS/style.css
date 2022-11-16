@@ -1,17 +1,61 @@
-body {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    padding: #331c47;
-    color: #c1c1c1;
-    background-color: #6e2b1a;
-    
+h1 {
+    font-family:"Bebas Neue";
+    font-size: 72pt;
+    background-color: #6ed3ff;
+    color: black;
+    text-align: center;
+}
 
+h2{
+font-family:"Bebas Neue";
+text-align: center;
+background-color: #6ed3ff;
+color: black;
+}
 
-
+p{
+text-align: left;
+margin-left: 1em;
+margin-right: 1em;
 }
 
 
-h1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #a59f69;
-    color: #000;
+body{
+background-color:black;
+text-align: center;
+margin-bottom:auto;
+}
+
+#hero{
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: xx-large;
+    color: #d1cccc;
+    background-color: #322248;
+    text-align: left;
+
+}
+
+#QuickFacts{
+    font-family: 'Montserrat', sans-serif;
+    font-size: x-large;
+    color: #d1cccc;
+    background-color: #342a2a;
+    text-align: left;
+    padding-bottom: 0.75em;
+}
+
+img{
+margin-left: auto;
+margin-right: auto;
+}
+
+footer{
+    margin-top: 10em;
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    color: #d1cccc;
+    background-color: #342a2a;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
