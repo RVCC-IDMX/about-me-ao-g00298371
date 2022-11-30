@@ -21,7 +21,7 @@ margin-right: 1em;
 
 
 body{
-background-color:black;
+background-color:rgb(0, 0, 0);
 text-align: center;
 margin-bottom:auto;
 }
@@ -48,6 +48,11 @@ margin-bottom:auto;
 img{
 margin-left: auto;
 margin-right: auto;
+}
+
+figcaption{
+color: #d1cccc;
+font-family: 'Montserrat', sans-serif;
 }
 
 footer{
