@@ -1,3 +1,6 @@
+
+/* GENERAL PARAMETERS*/
+
 h1 {
     font-family:"Bebas Neue";
     font-size: 72pt;
@@ -7,24 +10,47 @@ h1 {
 }
 
 h2{
-font-family:"Bebas Neue";
-text-align: center;
-background-color: #6ed3ff;
-color: black;
+    font-family:"Bebas Neue";
+    text-align: center;
+    font-size: 3em;
+    background-color: #6ed3ff;
+    color: black;
 }
 
 p{
-text-align: left;
-margin-left: 1em;
-margin-right: 1em;
+    text-align: left;
+    margin-left: 1em;
+    margin-right: 1em;
 }
 
+img{
+    margin-left: auto;
+    margin-right: auto;
+}
 
 body{
-background-color:rgb(0, 0, 0);
-text-align: center;
-margin-bottom:auto;
+    background-color:rgb(0, 0, 0);
+    text-align: center;
+    margin-bottom:auto;
 }
+
+footer{
+    margin-top: 10em;
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    color: #d1cccc;
+    background-color: #342a2a;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+
+
+
+/* BODY SECTIONS */
+
+
+/*HERO SECTION*/
 
 #hero{
 
@@ -36,31 +62,38 @@ margin-bottom:auto;
 
 }
 
+/*QUICK FACTS SECTION*/
+
 #QuickFacts{
-    font-family: 'Montserrat', sans-serif;
-    font-size: x-large;
-    color: #d1cccc;
     background-color: #342a2a;
+}
+
+#QuickFacts ul{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color: #d1cccc;
     text-align: left;
-    padding-bottom: 0.75em;
+    padding-bottom: 1.75em;
 }
 
-img{
-margin-left: auto;
-margin-right: auto;
-}
 
-figcaption{
-color: #d1cccc;
-font-family: 'Montserrat', sans-serif;
-}
 
-footer{
-    margin-top: 10em;
+/*GALLERY SECTION*/
+
+#gallery{
     font-family: 'Montserrat', sans-serif;
-    font-size: large;
     color: #d1cccc;
-    background-color: #342a2a;
-    padding-top: 1em;
-    padding-bottom: 1em;
+}
+
+
+
+/*LITIPSUM ARTICLE*/
+
+#article div{
+    font-family: 'Montserrat', sans-serif;
+    color: #d1cccc;
+    text-align: left;
+    padding-left: 12em;
+    padding-right: 12em;
+    line-height: 22pt;
 }
