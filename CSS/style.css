@@ -15,6 +15,9 @@ h2{
     font-size: 3em;
     background-color: #6ed3ff;
     color: black;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
 }
 
 p{
@@ -44,7 +47,18 @@ footer{
     padding-bottom: 1em;
 }
 
+/* DROP CAPS */
 
+article p:nth-child(4n+1)::first-letter{
+    display:block;
+    float:left;
+    font-size:300%;
+    color:#6ed3ff;
+    margin-right: 0.5ex;
+    margin-left: 0.5ex;
+    
+
+}
 
 
 /* BODY SECTIONS */
@@ -96,4 +110,63 @@ footer{
     padding-left: 12em;
     padding-right: 12em;
     line-height: 22pt;
+}
+
+
+
+/*RESPONSIVENESS*/
+
+@media screen and (min-width: 60em) {
+    
+    figure {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        font-size: xx-large;
+        padding-top: auto;
+        padding-bottom: auto;
+    }
+    
+    figcaption {
+        align-self: center;
+    }    
+}
+
+@media screen and (min-width: 100em) {
+   
+    #gallery{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #gallery hr {
+        display:none;
+    }
+
+    #gallery h2 {
+        grid-column: 1/-1;
+    }
+
+    figure {
+        display:block;
+        border-bottom:1px solid white;
+        padding-bottom:2em;
+    }
+
+    #gallery img {
+        height:550px;
+    }
+
+    figcaption{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        margin-left: 1rem;
+    }
+
+    #article div{
+        max-width:100%;
+        columns: 40rem;
+    }
+
 }
