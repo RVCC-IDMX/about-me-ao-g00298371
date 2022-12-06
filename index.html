@@ -191,6 +191,96 @@
 
         </section>
 
+
+
+        <section id="feedback">
+            
+            <h2>Give us Feedback:</h2>
+
+            <form id="contactForm" name="contactForm" method="post" data-netlify="true">
+
+                <fieldset>
+
+                    <legend>Contact Form:</legend>
+
+                    <div id="formElements">
+
+                        <!--NAME-->
+                        <label for="name">Name (required)</label>
+                        <input type="text" id="name" name="name" placeholder="Name"
+                        required>
+
+                        <br>
+
+                        <!--EMAIL-->
+                        <label for="email">Email (required)</label>
+                        <input type="email" id="email" name="email" placeholder="Email" 
+                        required>
+
+                        <br>
+
+                        <!--PHONE NUMBER-->
+                        <label for="phone">Phone Number (optional)</label>
+                        <input type="tel" id="phone" name="phone" placeholder="xxx-xxx-xxxx">
+
+                        <br>
+
+                        <!--PHONE TYPE-->
+                        <label for="phonetype">Phone Type (optional)</label>
+                        <select id="phonetype" name="phonetype">
+                            <option value="" selected>Select Phone Type</option>
+                            <option value="Mobile">Mobile</option>
+                            <option value="Work">Work</option>
+                            <option value="Home">Home</option>
+                        </select>
+
+                        <br><br>
+
+                        <!--MESSAGE-->
+                        <label for="message"> Additional Comments/Concerns (optional)</label>
+                        <textarea id="message" name="message" rows="8" placeholder="Comments and concerns go here..." ></textarea> 
+
+                        <br><br>
+
+                        <!--REPLY-->
+                        <fieldset>
+
+                            <legend>
+                                Would you like a reply?
+                            </legend>
+
+                            <ul>
+                                <li>
+                                    <input type="radio" id="message-yes" name="reply" value="Yes, please reply.">
+                                    <label for="message-yes">Yes, I would like a reply.</label>
+                                </li>
+
+                                <li>
+                                    <input type="radio" id="message-no" name="reply" checked="true" value="No reply requested.">
+                                    <label for="message-no">No, and who are you? Why are you in my house?!</label>
+                                </li>
+
+                            </ul>
+
+                        </fieldset>
+
+                        <br><br>
+
+                        <!--SUBMIT-->
+
+                        <button type="submit">Send</button>
+
+                    </div>
+                    
+
+                </fieldset>
+
+            </form>
+
+        </section>
+
+
+
     </main>
 
     <footer>
