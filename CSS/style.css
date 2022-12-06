@@ -36,6 +36,7 @@ footer{
     padding-bottom: 1em;
 }
 
+
 /* DROP CAPS */
 
 article p:nth-child(4n+1)::first-letter{
@@ -104,6 +105,7 @@ article p:nth-child(4n+1)::first-letter{
 
 /*LITIPSUM ARTICLE*/
 
+
 #article div{
     font-family: 'Montserrat', sans-serif;
     color: #d1cccc;
@@ -115,6 +117,23 @@ article p:nth-child(4n+1)::first-letter{
     text-align: left;
     margin-left: 1em;
     margin-right: 1em;
+}
+
+
+#video{
+    font-family: 'Montserrat', sans-serif;
+    font-size: larger;
+    color: #d1cccc;
+    background-color: #342a2a;
+}
+
+#caption{
+    font-family: 'Montserrat', sans-serif;
+    font-size: x-large;
+    color: #d1cccc;
+    padding-bottom: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
 }
 
 
