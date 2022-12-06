@@ -20,19 +20,6 @@ h2{
     align-items: center;
 }
 
-p{
-    text-align: left;
-    margin-left: 1em;
-    margin-right: 1em;
-}
-
-img{
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 100%;
-    border-radius: 0.5em;
-}
-
 body{
     background-color:rgb(0, 0, 0);
     text-align: center;
@@ -58,13 +45,19 @@ article p:nth-child(4n+1)::first-letter{
     color:#6ed3ff;
     margin-right: 0.5ex;
     margin-left: 0.5ex;
-    
-
 }
 
 
 /* BODY SECTIONS */
 
+/*HEADER SECTION*/
+
+#header img{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 75%;
+    padding-bottom: 2em;
+}
 
 /*HERO SECTION*/
 
@@ -74,8 +67,8 @@ article p:nth-child(4n+1)::first-letter{
     font-size: xx-large;
     color: #d1cccc;
     background-color: #322248;
-    text-align: left;
-
+    align-items: center;
+    text-align: center;
 }
 
 /*QUICK FACTS SECTION*/
@@ -101,6 +94,12 @@ article p:nth-child(4n+1)::first-letter{
     color: #d1cccc;
 }
 
+#gallery img{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    border-radius: 0.5em;
+}
 
 
 /*LITIPSUM ARTICLE*/
@@ -112,6 +111,12 @@ article p:nth-child(4n+1)::first-letter{
     line-height: 22pt;
 }
 
+#article p{
+    text-align: left;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
 
 
 /*RESPONSIVENESS*/
@@ -121,7 +126,7 @@ article p:nth-child(4n+1)::first-letter{
 /*Tablet*/
 
 @media screen and (min-width: 60em) {
-    
+   
     figure {
         display: grid;
         grid-template-columns: 2fr 1fr;
@@ -132,6 +137,7 @@ article p:nth-child(4n+1)::first-letter{
     
     figcaption {
         align-self: center;
+        text-align: left;
     }    
 
     #article div{
@@ -172,6 +178,7 @@ article p:nth-child(4n+1)::first-letter{
         display:flex;
         justify-content: center;
         align-items: center;
+        text-align: center;
         font-size: 2rem;
         margin-left: 1rem;
     }
