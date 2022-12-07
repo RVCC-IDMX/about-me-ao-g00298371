@@ -166,14 +166,13 @@ article p:nth-child(4n+1)::first-letter{
     font-family: 'Montserrat', sans-serif;
     border-radius: 0.5em;
     padding: 1rem;
-    max-width: 600px;
+    max-width: 60vw;
     margin: 2rem auto;
     background-color: rgb(42, 42, 61);
 }
 
 #contactForm textarea{
-    max-width: 550px;
-    min-width: 550px;
+    min-width: fit-content;
     min-height: 50px;
     max-height: 1000px;
 }
