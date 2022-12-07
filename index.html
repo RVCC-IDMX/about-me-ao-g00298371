@@ -172,6 +172,8 @@
         </section>
 
 
+        <!--Video/Caption-->
+
 
         <section id="video">
 
@@ -192,6 +194,8 @@
         </section>
 
 
+        <!--Contact/Feedback Form-->
+
 
         <section id="feedback">
             
@@ -201,9 +205,11 @@
 
                 <fieldset>
 
-                    <legend>Contact Form:</legend>
+                    <legend id="formHead">Contact Form:</legend>
 
                     <div id="formElements">
+
+                        <br><br>
 
                         <!--NAME-->
                         <label for="name">Name (required)</label>
@@ -234,13 +240,13 @@
                             <option value="Home">Home</option>
                         </select>
 
-                        <br><br>
+                        <br>
 
                         <!--MESSAGE-->
                         <label for="message"> Additional Comments/Concerns (optional)</label>
                         <textarea id="message" name="message" rows="8" placeholder="Comments and concerns go here..." ></textarea> 
 
-                        <br><br>
+                        <br>
 
                         <!--REPLY-->
                         <fieldset>
@@ -257,7 +263,7 @@
 
                                 <li>
                                     <input type="radio" id="message-no" name="reply" checked="true" value="No reply requested.">
-                                    <label for="message-no">No, and who are you? Why are you in my house?!</label>
+                                    <label for="message-no">No, I would not like a reply.</label>
                                 </li>
 
                             </ul>
@@ -268,7 +274,7 @@
 
                         <!--SUBMIT-->
 
-                        <button type="submit">Send</button>
+                        <button id="submit" type="submit" >Send</button>
 
                     </div>
                     
@@ -282,6 +288,10 @@
 
 
     </main>
+
+
+    <!--Footer-->
+
 
     <footer>
         

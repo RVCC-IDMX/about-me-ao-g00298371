@@ -12,7 +12,7 @@ h1 {
 h2{
     font-family:"Bebas Neue";
     text-align: center;
-    font-size: 3em;
+    font-size: 42pt;
     background-color: #6ed3ff;
     color: black;
     display: flex; 
@@ -21,7 +21,7 @@ h2{
 }
 
 body{
-    background-color:rgb(255, 255, 255);
+    background-color:rgb(0, 0, 0);
     text-align: center;
     margin-bottom:auto;
 }
@@ -31,7 +31,7 @@ footer{
     font-family: 'Montserrat', sans-serif;
     font-size: large;
     color: #d1cccc;
-    background-color: #342a2a;
+    background-color: rgb(42, 42, 61);
     padding-top: 1em;
     padding-bottom: 1em;
 }
@@ -64,18 +64,20 @@ article p:nth-child(4n+1)::first-letter{
 
 #hero{
 
-    font-family: 'Montserrat', sans-serif;
+    font-family:"Bebas Neue";
     font-size: xx-large;
-    color: #d1cccc;
+    color: #6ed3ff;
     background-color: #322248;
+    min-width: fit-content;
     align-items: center;
     text-align: center;
+    padding-bottom: 0.5em;
 }
 
 /*QUICK FACTS SECTION*/
 
 #QuickFacts{
-    background-color: #342a2a;
+    background-color:rgb(42, 42, 61);
 }
 
 #QuickFacts ul{
@@ -125,7 +127,7 @@ article p:nth-child(4n+1)::first-letter{
     font-family: 'Montserrat', sans-serif;
     font-size: larger;
     color: #d1cccc;
-    background-color: #342a2a;
+    background-color: #322248;
 }
 
 #caption{
@@ -137,13 +139,52 @@ article p:nth-child(4n+1)::first-letter{
     padding-right: 2em;
 }
 
-/*CONTACT FORM*/
+/*FEEDBACK FORM*/
 
 #formElements{
     display: grid;
+    row-gap: 1em;
+    color: #d1cccc;
 }
 
+#formHead{
+    font-family:"Bebas Neue";
+    font-size: 36pt;
+    color: #6ed3ff;
 
+
+
+}
+
+#contactForm{
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 0.5em;
+    padding: 1rem;
+    max-width: 600px;
+    margin: 2rem auto;
+    background-color: rgb(42, 42, 61);
+}
+
+#contactForm textarea{
+    max-width: 550px;
+    min-width: 550px;
+    min-height: 50px;
+    max-height: 1000px;
+}
+
+#contactForm button{
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    color: #342a2a;
+    background-color: #6ed3ff;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0.25em;
+    min-width: 150px;
+    max-width: 150px;
+    max-height: 40px;
+    min-height: 40px;
+}
 
 
 
@@ -166,6 +207,7 @@ article p:nth-child(4n+1)::first-letter{
     figcaption {
         align-self: center;
         text-align: left;
+        margin-left: 0.5em;
     }    
 
     #article div{
