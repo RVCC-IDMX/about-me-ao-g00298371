@@ -149,11 +149,17 @@ article p:nth-child(4n+1)::first-letter{
 
 #formHead{
     font-family:"Bebas Neue";
-    font-size: 36pt;
+    font-size: 32pt;
     color: #6ed3ff;
+}
 
+#contact ul{
+    list-style: none;
+    padding: 0px;
+}
 
-
+#contact li{
+    margin: 1rem;
 }
 
 #contactForm{
