@@ -26,6 +26,8 @@ body{
     margin-bottom:auto;
 }
 
+/*FOOTER*/
+
 footer{
     margin-top: 10em;
     font-family: 'Montserrat', sans-serif;
@@ -35,6 +37,12 @@ footer{
     padding-top: 1em;
     padding-bottom: 1em;
 }
+
+footer svg{
+    padding: 0.5em;
+}
+
+
 
 
 /* DROP CAPS */
