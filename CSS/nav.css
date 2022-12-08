@@ -10,11 +10,15 @@ body{
 
 .navbar-links a{
     text-decoration: none;
+    padding: 0.25em;
 }
 
 .navbar-links a:hover,
 .navbar-links a:focus{
-filter: invert(1);
+color:rgb(42, 42, 61);
+background-color: #6ed3ff;
+border-radius: 5px;
+outline: none;
 }
 
 .navbar-links ul {
