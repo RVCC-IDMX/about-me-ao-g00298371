@@ -32,6 +32,7 @@
 
     <!-- branding and other persistent info -->
     <header id="header">
+        
         <nav class="nav bar">
             <div class="logo">
                 <h1><img src="img/personal_logo-03.png" alt="Personal Logo"></h1>
@@ -39,9 +40,12 @@
             </div>
             
             <div class="navbar-links">
-                <!-- checkbox here -->
-                <!-- label here -->
-                <ul>
+                <input type="checkbox" id="nav__checkbox" class="nav__checkbox">
+                <label for="nav__checkbox" class="nav__toggle">
+                    <div class="open">☰</div>
+                    <div class="close">✖</div>
+                </label>
+                <ul class="nav__menu">
                     <li><a href="#hero">Site Designer</a></li>
                     <li><a href="#QuickFacts">Quick Facts</a></li>
                     <li><a href="#gallery">Gallery</a></li>

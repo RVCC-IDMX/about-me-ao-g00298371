@@ -41,6 +41,37 @@ body{
     padding:0.75em;
 }
 
+
+
+/* checkbox stuff */
+.navbar-links ul {
+    display:none;
+}
+#nav__checkbox:checked ~ .nav__menu {
+    display: flex;
+}
+.nav__toggle {
+    color:white;
+}
+#nav__checkbox {
+    display:none;
+}
+
+.close {
+    display:none;
+}
+#nav__checkbox:checked ~ .nav__toggle .close {
+    display:block;
+}
+#nav__checkbox:checked ~ .nav__toggle .open {
+    display:none;
+}
+
+.nav__toggle {
+
+}
+
+
 @media screen and (min-width: 60em) {
    
     .navbar-links a{
@@ -60,7 +91,7 @@ body{
         font-family:"Bebas Neue";
         background-color: rgb(42, 42, 61);
         color: #6ed3ff;
-        display: flex;
+        /*display: flex;*/
         flex-direction: row;
         text-align: justify;
         justify-content:space-evenly;
