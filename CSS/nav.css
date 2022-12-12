@@ -68,12 +68,18 @@ body{
 }
 
 .nav__toggle {
-
+    font-size: 36pt;
+    color: #6ed3ff;
+    background-color: rgb(42, 42, 61);
 }
 
 
 @media screen and (min-width: 60em) {
    
+    .nav__toggle {
+        display: none;
+    }
+
     .navbar-links a{
         text-decoration: none;
         padding: 0.25em;
@@ -91,7 +97,7 @@ body{
         font-family:"Bebas Neue";
         background-color: rgb(42, 42, 61);
         color: #6ed3ff;
-        /*display: flex;*/
+        display: flex;
         flex-direction: row;
         text-align: justify;
         justify-content:space-evenly;
