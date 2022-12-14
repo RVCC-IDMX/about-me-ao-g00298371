@@ -13,9 +13,9 @@ ________________________________________________________________________________
 ## Project Documentation:
 
 
-### "Site Designer" and "Quick Facts" Sections:
+### "Site Designer" and "Personal Facts" Sections:
 
-The first part of my project that I built were the "Site Designer" and "Quick Facts" (formerly "Hobbies") sections. Being that I was a first-time web designer and had no idea what I was doing, these sections were seminal to my understanding of basic HTML and soon later, basic CSS.
+The first part of my project that I built were the "Site Designer" and "Personal Facts" (formerly "Quick Facts/Hobbies") sections. Being that I was a first-time web designer and had no idea what I was doing, these sections were seminal to my understanding of basic HTML and soon later, basic CSS.
 
 #### Logo:
 

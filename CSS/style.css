@@ -114,10 +114,12 @@ header h1{
 
 #QuickFacts ul{
     font-family: 'Montserrat', sans-serif;
+    line-height: 34px;
     font-size: 24px;
     color: #d1cccc;
     text-align: left;
     padding-bottom: 1.75em;
+    padding-right:1rem;
 }
 
 
