@@ -50,6 +50,7 @@ footer svg{
 article p:nth-child(4n+1)::first-letter{
     display:block;
     float:left;
+    clear:both;
     font-size:300%;
     color:#6ed3ff;
     margin-right: 0.5ex;
@@ -136,7 +137,16 @@ header h1{
 }
 
 
-/*LITIPSUM ARTICLE*/
+/*BLOG POST*/
+
+#article img{
+    float:left; 
+    max-width:50%;
+    border-radius: 1em; 
+    margin-right:1rem;
+    margin-left: 1rem;
+    clear:both;
+}
 
 
 #article div{
@@ -302,6 +312,8 @@ header h1{
 
 }
 
+/*CELL PHONES*/
+
 @media screen and (min-width: 40em) {
 
 
@@ -338,4 +350,14 @@ header h1{
         font-size: 42pt;
     }
 
+}
+
+/* IMAGE IN BLOG POST */
+
+@media screen and (min-width:1600px) {
+    #article img{
+        float:none;
+        display:block;
+        margin: 0px auto; 
+    }
 }
