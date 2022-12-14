@@ -30,3 +30,5 @@ This section started out originally as a meaningless "litipsum" article, but has
 
 [•	"Variable fonts: The future of typography on the web" by Rachel Andrew.][def4]
 [def4]: https://www.smashingmagazine.com/2017/05/variable-fonts-future-typography-web/
+
+### 
